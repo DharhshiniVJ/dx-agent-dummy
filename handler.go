@@ -2,18 +2,13 @@ package main
 
 import (
     "fmt"
-    "net/http"
-    // other imports
 )
 
-// ... other code ...
-
-func someHandler(w http.ResponseWriter, r *http.Request) {
-    // ... some logic ...
-    // line 31 (originally): handleReqest(w, r)
-    // corrected spelling:
-    handleRequest(w, r)
-    // ... rest of function ...
+func handleRequest() {
+    fmt.Println("handling")
 }
 
-// ... rest of file unchanged ...
+func main() {
+    // Fixed typo: call the correctly named function
+    handleRequest()
+}
