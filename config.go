@@ -1,10 +1,9 @@
 package main
 
 import (
-	"os"
-	"fmt"
+    "fmt"
 )
 
 func config() {
-	fmt.Println("Config loaded")
+    fmt.Println("Config loaded")
 }
