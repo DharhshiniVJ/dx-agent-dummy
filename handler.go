@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+)
+
+func handleRequest() {
+    fmt.Println("handling request")
+}
 
 func main() {
-	fmt.Println("Hello World")
+    // Fixed typo: call the correctly named function
+    handleRequest()
 }
