@@ -3,7 +3,7 @@ package main
 import "net/http"
 
 func serve() {
-	handleReqest(nil, nil)
+	handleRequest(nil, nil)
 }
 
 func handleRequest(w http.ResponseWriter, r *http.Request) {
