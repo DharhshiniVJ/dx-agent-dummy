@@ -5,10 +5,12 @@ import (
 )
 
 func handleRequest() {
-    fmt.Println("handling")
+    fmt.Println("handling request")
 }
 
 func main() {
-    // Fixed typo: call the correctly named function
+    // ... other code ...
+    // Fixed typo: call the correctly spelled function
     handleRequest()
+    // ... other code ...
 }
