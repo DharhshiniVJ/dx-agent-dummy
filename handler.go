@@ -1,11 +1,16 @@
 package main
 
-import "net/http"
+import (
+    "fmt"
+)
 
-func serve() {
-	handleReqest(nil, nil)
+// handleRequest processes a request string.
+func handleRequest(r string) {
+    fmt.Println("Handling request:", r)
 }
 
-func handleRequest(w http.ResponseWriter, r *http.Request) {
-	// Handle it
+func process() {
+    // ... other logic ...
+    // Fixed typo: call the correctly‑spelled function.
+    handleRequest("example")
 }
